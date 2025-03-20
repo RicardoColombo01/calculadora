@@ -8,7 +8,7 @@ function calcularResultado() {
     try {
         document.getElementById("display").value = eval(document.getElementById("display").value);
     } catch (e) {
-        document.getElementById("display").value = "Burro"; // Se houver erro na conta
+        document.getElementById("display").value = "Erro"; // Se houver erro na conta
     }
 }
 
